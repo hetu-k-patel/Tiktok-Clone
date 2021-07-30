@@ -16,7 +16,7 @@ app.use((req, res, next) => {
 })
 
 // DBConfig
-const connection_url = 'mongodb+srv://admin:admin@123@cluster0.iwmii.mongodb.net/TIKTOK-CLONE?retryWrites=true&w=majority';
+const connection_url = '';
 
 mongoose.connect(connection_url, {
     useNewUrlParser: true,
